@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #FF66B2, #FF9999); /* Pink to Rose Pink gradient */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.category {
+    width: 200px;
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+    display: block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
